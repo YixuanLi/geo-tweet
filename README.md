@@ -1,6 +1,6 @@
 # geo-tweet
 
-Details of the project report can be found [here](http://www.cs.cornell.edu/~yli/projects/INFO6010/geo-tweet-analysis.html)
+Details of the project report can be found [here](http://www.cs.cornell.edu/~yli/projects/INFO6010/geo-tweet-analysis.html).
 
 
 Requirements
