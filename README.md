@@ -88,3 +88,11 @@ python filter_tweets.py --rawDir ../twitter-collect/collected_tweets/example.jso
 
    You should be able to see the output file ``result.txt`` upon finishing runing the script.
 
+######Step 5: Train the classifier######
+
+ ```
+ 	$cd ../train
+ 	$python LIWC_classify.py
+ ```
+    
+   You should be able to see the training accuracy and testing accuracy on the screen upon finishing running the script.
