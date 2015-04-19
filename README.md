@@ -74,4 +74,17 @@ python filter_tweets.py --rawDir ../twitter-collect/collected_tweets/example.jso
 - Change your directory to ``twitter-timeline``
 - ``python get_user_timeline.py --inputDir ../tweets/example.json --outputDir ../timeline``
 
-You should be able to see each user’s timeline stored under the directory of ``timeline/{userID}.json``.
+  You should be able to see each user’s timeline stored under the directory of ``timeline/{userID}.json``.
+
+######Step 4: LIWC analysis######
+
+- Demo data description: the folder ``data/`` contains two files: the LIWC features extracted from the timeline tweets of 765 geo locators and 545 non-locators, respectively. The details of LIWC attributes can be found here: [http://www.liwc.net/descriptiontable1.php](http://www.liwc.net/descriptiontable1.php)
+
+- Two Sample T-test of LIWC features:
+```
+	$cd ttest
+	$python ttest.python
+```
+
+   You should be able to see the output file ``result.txt`` upon finishing runing the script.
+
